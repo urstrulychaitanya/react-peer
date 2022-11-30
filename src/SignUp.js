@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Main from './Main';
+
 export default function SignUp() {
   //State
   const [SignUpValues, setSignUpValues] = useState({});
